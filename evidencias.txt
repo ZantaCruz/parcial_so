@@ -1,0 +1,56 @@
+Evidencias para Samuel ( 2246993 )
+ok - /root/dataexplorer/app/backend/controller.ts
+ok - /root/dataexplorer/app/frontend/js/button_manager.js
+ok - /root/dataexplorer/app/frontend/js/text_interaction.js
+ok - /root/dataexplorer/app/frontend/css/styles1.css
+ok - /root/dataexplorer/app/frontend/css/styles2.css
+ok - /root/dataexplorer/app/frontend/css/styles3.css
+ok - /root/dataexplorer/app/frontend/index.html
+ok - /root/dataexplorer/app/frontend/about.html
+ok - /root/dataexplorer/app/frontend/contact.html
+    1  sudo dnf install git -y
+    2  git clone https://github.com/ZantaCruz/parcial_so.git
+    3  cd ~/parcial_so
+    4  ls
+    5  cd
+    6  mkdir -p /vagrant
+    7  ls
+    8  mkdir -p ~/vagrant
+    9  ls
+   10  cd ~/parcial_so
+   11  sudo mv *.sh ~/vagrant/
+   12  cd ~/parcial_so/ dataexplorer_v_1_0.tar.gz ~/vagrant/
+   13  cd ~/parcial_so/dataexplorer_v_1_0.tar.gz ~/vagrant/
+   14  cp ~/parcial_so/dataexplorer_v_1_0.tar.gz ~/vagrant/
+   15  cd
+   16  clear
+   17  cd ~/vagrant
+   18  ls
+   19  type source
+   20  help source
+   21  cd
+   22  source ~/vagrant/dataexplorer_setup.sh
+   23  ls -l ~/dataexplorer
+   24  cat ~/dataexplorer/enviroment.txt
+   25  cp ~/vagrant/dataexplorer_v_1_0.tar.gz ~/dataexplorer/
+   26  ls -l ~/dataexplorer
+   27  cd ~/dataexplorer
+   28  tar -xzvf dataexplorer_v_1_0.tar.gz
+   29  tar -xzf dataexplorer_v_1_0.tar.gz
+   30  cd
+   31  sudo dnf install tar -y
+   32  cd ~/dataexplorer
+   33  tar -xzf dataexplorer_v_1_0.tar.gz
+   34  ls
+   35  mkdir -p app/backend app/frontend/css app/frontend/js 
+   36  mv controller.ts app/backend/
+   37  mv *.html app/frontend/
+   38  mv *.css app/frontend/css/
+   39  mv *,js app/frontend/js/
+   40  mv *.js app/frontend/js/
+   41  cd 
+   42  sudo yum install tree
+   43  cd ~/dataexplorer
+   44  tree app
+   45  cd
+   46  source ~/vagrant/collect_evidence.sh
